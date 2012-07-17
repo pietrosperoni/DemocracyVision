@@ -54,10 +54,13 @@ Here is a possible answer:
 
 * **Button**: I do not wish to evaluate any more answers for this question. Let me look at other questions.
 
+NOTE: When a proposal is evaluated, the author should receive an email: Hey, your proposal has been evaluated. You have so far received ... evaluations. With this spectrum, and this average.
+
+
 ---
 ## See the Results Page
 
-**NOTE**: By looking at this page you give up the possibility to evaluate other proposals in future.
+**NOTE**: By looking at this page you give up the possibility to evaluate other proposals in future on this question.
 
 
 The question was:
