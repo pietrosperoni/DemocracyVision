@@ -123,7 +123,7 @@ For example an administrator should be define a question as open to anyone livin
 
 ## Tables
 
-* **Users**. Columns: id, email, password (coded with a seed), last time the user has participated, facebook number, twitter number, rome[user/administrator/administratorlawyer].
+* **Users**. Columns: id, email, password (coded with a seed), last time the user has participated, facebook number, twitter number, role[user/administrator/administratorlawyer].
 
 * **UsersData**. Columns: id, Users:id, Real Name, gender, Year of Birth.
 [More columns will appear here as policy makers ask questions to people from only some places, or only of a certain education level, and so on]
@@ -134,28 +134,9 @@ For example an administrator should be define a question as open to anyone livin
 * **Questions**. Columns: id, author, blob, time in which it was presented.
 
 * **QuestionsRequirementToParticipate**. Question:id, UsersData:nameofcolumn, valueaccepted.
+
 * **QuestionsBalance**. Question:id, UsersData:nameofcolumn, valueaccepted. 
 [those two tables are still the less clear]
 
-* **Votes**. Columns: id, author, proposal, time of presentation of proposal, time of vote.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* **Votes**. Columns: proposal:id, user:id, time of presentation of proposal, time of vote, .
 
